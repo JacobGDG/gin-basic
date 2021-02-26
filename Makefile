@@ -11,3 +11,5 @@ start-build:
 start:
 	go mod tidy && go run .
 
+publish:
+	git push heroku
